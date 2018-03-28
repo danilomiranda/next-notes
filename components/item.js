@@ -1,10 +1,10 @@
 export default ({ title, date }) => {
   return <div>
-    <div className="title">
+    <div className='title'>
       {title}
     </div>
-    <div className="date">
-      {date} 
+    <div className='date'>
+      {date}
     </div>
     <style jsx>{`
       .title {

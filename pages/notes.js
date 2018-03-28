@@ -24,11 +24,11 @@ export default class extends React.Component {
     var options = {
       shouldSort: true,
       keys: [
-        "title"
-    ]
-    };
+        'title'
+      ]
+    }
     this.setState(currentState => {
-      const fuse = new Fuse(currentState.notes, options);
+      const fuse = new Fuse(currentState.notes, options)
       return {
         notesFiltered: query ? fuse.search(query) : currentState.notes
       }
@@ -41,5 +41,4 @@ export default class extends React.Component {
       <Items items={this.state.notesFiltered} />
     </Page>
   }
-
 }

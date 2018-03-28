@@ -5,8 +5,8 @@ export default ({ items }) => (
     <h3>Notas</h3>
     {
       items.map((item, i) => (
-        <div key={item._id} className="item">
-          <div className="note">
+        <div key={item._id} className='item'>
+          <div className='note'>
             <Item {...item} />
           </div>
         </div>

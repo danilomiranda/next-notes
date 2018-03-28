@@ -8,7 +8,6 @@ import Items from '../components/items'
 import notes from '../data/notes.json'
 
 describe('Items', () => {
-  
   const items = shallow(<Items items={notes} />)
 
   it('Has h3 with text "Notas" ', () => {
@@ -18,5 +17,4 @@ describe('Items', () => {
   it('Have 6 divs with classname "item" ', () => {
     expect(items.find('div.item')).toHaveLength(6)
   })
-
 })

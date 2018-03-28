@@ -1,6 +1,6 @@
 export default () => (
-  <header className="flex-container">
-    <span className="title">Notes</span>
+  <header className='flex-container'>
+    <span className='title'>Notes</span>
 
     <style jsx>{`
       header {

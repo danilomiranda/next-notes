@@ -1,8 +1,8 @@
 export default ({ searchQuery, onSearch }) => (
-  <div className="search">
+  <div className='search'>
     <input
-      type="text"
-      placeholder="Pesquise por uma nota"
+      type='text'
+      placeholder='Pesquise por uma nota'
       value={searchQuery}
       onChange={event => {
         onSearch(event.target.value)

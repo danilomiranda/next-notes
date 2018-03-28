@@ -6,7 +6,6 @@ import React from 'react'
 import Item from '../components/item'
 
 describe('Item', () => {
-  
   const item = shallow(<Item title='Stark' date='22/03/2018' />)
 
   it('Has a div with class title with text "Stark" ', () => {
