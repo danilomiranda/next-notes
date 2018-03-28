@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshow of Notes 1`] = `
+<div
+  className="jsx-2030500139 main"
+>
+  <div
+    className="jsx-2090446088"
+  />
+  <header
+    className="jsx-1350539649 flex-container"
+  >
+    <span
+      className="jsx-1350539649 title"
+    >
+      Notes
+    </span>
+  </header>
+  <div
+    className="jsx-2030500139 page"
+  >
+    <div
+      className="jsx-1433830949 search"
+    >
+      <input
+        className="jsx-1433830949"
+        onChange={[Function]}
+        placeholder="Pesquise por uma nota"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="jsx-944670893"
+    >
+      <h3
+        className="jsx-944670893"
+      >
+        Notas
+      </h3>
+      <div
+        className="jsx-944670893 item"
+      >
+        <div
+          className="jsx-944670893 note"
+        >
+          <div
+            className="jsx-4283392587"
+          >
+            <div
+              className="jsx-4283392587 title"
+            >
+              Stark
+            </div>
+            <div
+              className="jsx-4283392587 date"
+            >
+              22/03/2018
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="jsx-944670893 item"
+      >
+        <div
+          className="jsx-944670893 note"
+        >
+          <div
+            className="jsx-4283392587"
+          >
+            <div
+              className="jsx-4283392587 title"
+            >
+              Lannister
+            </div>
+            <div
+              className="jsx-4283392587 date"
+            >
+              01/04/2017
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="jsx-944670893 item"
+      >
+        <div
+          className="jsx-944670893 note"
+        >
+          <div
+            className="jsx-4283392587"
+          >
+            <div
+              className="jsx-4283392587 title"
+            >
+              Targaryen
+            </div>
+            <div
+              className="jsx-4283392587 date"
+            >
+              22/04/2017
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="jsx-944670893 item"
+      >
+        <div
+          className="jsx-944670893 note"
+        >
+          <div
+            className="jsx-4283392587"
+          >
+            <div
+              className="jsx-4283392587 title"
+            >
+              Karstark
+            </div>
+            <div
+              className="jsx-4283392587 date"
+            >
+              22/04/2017
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="jsx-944670893 item"
+      >
+        <div
+          className="jsx-944670893 note"
+        >
+          <div
+            className="jsx-4283392587"
+          >
+            <div
+              className="jsx-4283392587 title"
+            >
+              Bolton
+            </div>
+            <div
+              className="jsx-4283392587 date"
+            >
+              02/07/2017
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="jsx-944670893 item"
+      >
+        <div
+          className="jsx-944670893 note"
+        >
+          <div
+            className="jsx-4283392587"
+          >
+            <div
+              className="jsx-4283392587 title"
+            >
+              Martell
+            </div>
+            <div
+              className="jsx-4283392587 date"
+            >
+              02/10/2017
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
