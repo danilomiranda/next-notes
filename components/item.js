@@ -1,4 +1,4 @@
-export default ({ _id, title, date }) => {
+export default ({ title, date }) => {
   return <div>
     <div className="title">
       {title}

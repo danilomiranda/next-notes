@@ -16,13 +16,11 @@ export default class extends React.Component {
 
   static async getInitialProps () {
     const items = await import('../data/notes.json')
-    console.log('DADOS', items)
     return { items }
   }
 
   search = query => {
     this.setState({ searchQuery: query })
-    console.log(query)
     var options = {
       shouldSort: true,
       keys: [
