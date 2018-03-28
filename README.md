@@ -34,6 +34,11 @@ Os testes são executados pela biblioteca Jest, segue o comando para executar to
 npm run test
 ```
 
+## Verificar o Style Guide
+
+```
+npm run lint
+```
 
 ### And coding style tests
 
@@ -78,7 +83,7 @@ npm run dev
 
 * [Next.js](https://github.com/zeit/next.js/) - The web framework used
 * [Jest](https://facebook.github.io/jest/) - Javascript Testing
-* [Standard](https://github.com/standard/standard) - Standard Code Style
+* [Standard](https://standardjs.com/) - Style Guide
 
 
 ## Authors
