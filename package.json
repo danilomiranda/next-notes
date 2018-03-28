@@ -1,0 +1,28 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "keywords": [
+    "react",
+    "next.js"
+  ],
+  "author": "@danilocmiranda",
+  "scripts": {
+    "dev": "next --inspect",
+    "build": "next build",
+    "start": "next start",
+    "lint": "standard"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "next": "^5.1.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "7.0.0",
+    "standard": "8.4.0"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}
