@@ -5,6 +5,12 @@ import Items from '../components/items'
 
 
 export default class extends React.Component {
+  constructor (props) {
+    super(props)
+    this.state = {
+      notes: props.items
+    }
+  }
 
   static async getInitialProps () {
     const items = await import('../data/notes.json')
@@ -13,9 +19,8 @@ export default class extends React.Component {
   }
 
   render () {
-    const { items } = this.props
     return <Page>
-      <Items items={items} />
+      <Items items={this.state.notes} />
     </Page>
   }
 
