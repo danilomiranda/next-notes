@@ -12,6 +12,7 @@ export default () => (
       .flex-container {
         display: flex;
         justify-content: center;
+        padding-bottom: 7px;
       }
 
       .title {

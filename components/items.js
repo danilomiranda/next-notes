@@ -14,11 +14,18 @@ export default ({ items }) => (
     }
 
     <style jsx>{`
+      h3 {
+        font-size: 15px;
+        color: #A0A4AD;
+        font-weight: 500;   
+      }
       .item {
         display: flex;
         margin: 20px 0;
         background: #fff;
         padding: 20px 30px 20px 30px;
+        border-radius: 25px;
+        border-radius: 7px;
       }
 
       .note {

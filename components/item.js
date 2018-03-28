@@ -3,7 +3,7 @@ export default ({ _id, title, date }) => {
     <div className="title">
       {title}
     </div>
-    <div className="meta">
+    <div className="date">
       {date} 
     </div>
     <style jsx>{`
@@ -13,33 +13,11 @@ export default ({ _id, title, date }) => {
         color: #000;
       }
 
-      .title > a {
-        color: #000;
-        text-decoration: none;
-      }
-
-      .title > a:visited {
-        color: #828282;
-      }
-
-      .meta {
+      .date {
         font-size: 12px;
+        color: #C7C8CA;
       }
 
-      .source {
-        font-size: 12px;
-        display: inline-block;
-        margin-left: 5px;
-      }
-
-      .source a, .meta a {
-        color: #828282;
-        text-decoration: none;
-      }
-
-      .source a:hover, .meta a:hover {
-        text-decoration: underline;
-      }
     `}</style>
   </div>
 }
