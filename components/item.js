@@ -10,6 +10,7 @@ export default ({ _id, title, date }) => {
       .title {
         font-size: 15px;
         margin-bottom: 3px;
+        color: #000;
       }
 
       .title > a {

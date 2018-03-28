@@ -2,6 +2,7 @@ import Item from './item'
 
 export default ({ items }) => (
   <div>
+    <h3>Notas</h3>
     {
       items.map((item, i) => (
         <div key={item._id} className="item">
@@ -15,7 +16,9 @@ export default ({ items }) => (
     <style jsx>{`
       .item {
         display: flex;
-        margin: 10px 0;
+        margin: 20px 0;
+        background: #fff;
+        padding: 20px 30px 20px 30px;
       }
 
       .note {
