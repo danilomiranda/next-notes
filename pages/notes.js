@@ -2,6 +2,7 @@ import React from 'react'
 import Page from '../components/page'
 import Items from '../components/items'
 import Search from '../components/search'
+import Fuse from 'fuse.js'
 
 export default class extends React.Component {
   constructor (props) {
@@ -22,9 +23,16 @@ export default class extends React.Component {
   search = query => {
     this.setState({ searchQuery: query })
     console.log(query)
+    var options = {
+      shouldSort: true,
+      keys: [
+        "title"
+    ]
+    };
     this.setState(currentState => {
+      const fuse = new Fuse(currentState.notes, options);
       return {
-        notesFiltered: currentState.notes.filter(item => query ? item.title === query : true)
+        notesFiltered: query ? fuse.search(query) : currentState.notes
       }
     })
   }
